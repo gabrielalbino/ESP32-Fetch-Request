@@ -1,0 +1,32 @@
+menu "Configuração do Wifi e API"
+
+    config ESP_WIFI_SSID
+        string "WiFi SSID"
+        default "ssid"
+        help
+            Nome da rede Wifi.
+
+    config ESP_WIFI_PASSWORD
+        string "Senha do Wifi"
+        default "minha_senha"
+        help
+            Senha do WiFi (WPA or WPA2).
+
+    config IP_STACK_APIKEY
+        string "Chave de API do ipstack"
+        default "chave_1"
+        help
+            Chave de API do ipstack.
+
+    config WEATHER_APIKEY
+        string "Chave de API do openweather"
+        default "chave_2"
+        help
+            Chave de API do openweather.
+
+    config ESP_MAXIMUM_RETRY
+        int "Número máximo de tentativas de conexão"
+        default 5
+        help
+            Configure o valor máximo de tentativas de conexão.
+endmenu
