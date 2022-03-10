@@ -1,4 +1,2 @@
-# T3
-Professor, perdão pelas algumas horas de trabalho, porém tive muitos problemas debugando o código.
-
-Se puder tirar alguns pontos pelo atraso mas não desconsiderar o código, agradeço.
+# ESP32 Fetch Request
+Sample to demonstrate fetching an api in IoT using an ESP32 as device.
